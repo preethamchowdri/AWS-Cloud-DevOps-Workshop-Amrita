@@ -1,46 +1,203 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Resume</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preetham Chowdri - Resume</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #e8edf3;
+    color: #333;
+    line-height: 1.5;
+    padding: 25px;
+}
+
+.resume {
+    max-width: 850px;
+    margin: auto;
+    padding: 35px 45px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+}
+
+header {
+    text-align: center;
+    background: #17365d;
+    color: white;
+    padding: 22px 15px;
+    margin-bottom: 22px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 13px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #17365d;
+    font-size: 18px;
+    border-bottom: 2px solid #17365d;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 14px;
+    margin-top: 8px;
+    color: #222;
+}
+
+p, li {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .resume {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+}
+
+@media print {
+    @page {
+        size: A4;
+        margin: 10mm;
+    }
+
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .resume {
+        max-width: 100%;
+        padding: 10px;
+        box-shadow: none;
+    }
+
+    header {
+        background: #17365d !important;
+        color: white !important;
+        print-color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+    }
+
+    section {
+        break-inside: avoid;
+    }
+}
+</style>
 </head>
+
 <body>
-	<div class="container">
-		<header>
-			<h1>preetham</h1>
-			<p>Cloud Solutions Engineer/Architect</p>
-		</header>
-		<section>
-			<h2>Summary</h2>
-			<p>Experienced Cloud Engineer specializing in designing, implementing, and managing scalable cloud infrastructure on AWS, Azure, and Google Cloud. Proficient in deploying and optimizing cloud resources, automating infrastructure with tools like Terraform and CloudFormation, and ensuring high availability, security, and cost efficiency. Skilled in monitoring system performance, troubleshooting complex issues, and applying cloud best practices to meet business objectives. Strong background in managing cloud-native applications, containerization, and continuous integration/continuous deployment (CI/CD) pipelines.</p>
-		</section>
-		<section>
-			<h2>Skills</h2>
-			<ul>
-				<li>AWS</li>
-				<li>Azure</li>
-				<li>CICD</li>
-				<li>Google Cloud</li>
-				<li>Bootstrap</li>
-				<li>React</li>
-			</ul>
-		</section>
-		<section>
-			<h2>Experience</h2>
-			<h3>Cloud Engineer, XYZ</h3>
-			<p>Developed and maintained multiple company websites using HTML, CSS, and JavaScript. Collaborated with designers and project managers to create visually appealing and user-friendly interfaces. Conducted regular code reviews to ensure high-quality and efficient code.</p>
-			<h3>Web Developer, ABC Agency</h3>
-			<p>Designed and implemented custom WordPress themes and plugins. Worked closely with clients to gather requirements and provide technical support. Conducted regular testing and debugging to ensure optimal performance.</p>
-		</section>
-		<section>
-			<h2>Education</h2>
-			<h3>Bachelor of Science in Computer Science</h3>
-			<p>University of ABC, Graduated May 20XX</p>
-		</section>
-		<section id="projects">
-			<h2>Projects</h2>
-			<p>Some text about your projects...</p>
-		</section>
-	</div>
+
+<div class="resume">
+
+<header>
+    <h1>Preetham Chowdri</h1>
+    <p>9502945890 | chowdripreetham@gmail.com | Mysuru, Karnataka</p>
+</header>
+
+<section>
+    <h2>Career Objective</h2>
+    <p>
+        Motivated Bachelor of Computer Applications student with a strong
+        interest in software development, web technologies, and database
+        systems. Passionate about building practical applications, learning
+        modern technologies, and improving technical and problem-solving skills.
+    </p>
+</section>
+
+<section>
+    <h2>Education</h2>
+
+    <h3>Amrita Vishwa Vidyapeetham, Mysuru</h3>
+    <p>Bachelor of Computer Applications | 2024–Present | CGPA: 7.19</p>
+
+    <h3>Geetham Junior College</h3>
+    <p>Intermediate | 89.2% | 2024</p>
+
+    <h3>PCMR High School</h3>
+    <p>SSLC | 75.6% | 2022</p>
+</section>
+
+<section>
+    <h2>Technical Skills</h2>
+    <p><b>Programming:</b> Java, Python, C, JavaScript, HTML5, CSS3</p>
+    <p><b>Database:</b> MySQL</p>
+    <p><b>Concepts:</b> OOP, DBMS, Web Development, UI/UX Design,
+    Responsive Design</p>
+    <p><b>Tools:</b> VS Code, Git (Basic), MS Office, Figma (Basic)</p>
+</section>
+
+<section>
+    <h2>Projects</h2>
+
+    <h3>Online Stationery Shop (Web Technology)</h3>
+    <p>
+        Developed an online stationery shopping website using HTML, CSS,
+        JavaScript and related web technologies with responsive pages,
+        product browsing and an intuitive interface.
+    </p>
+
+    <h3>Student Information System (DBMS)</h3>
+    <p>
+        Built a database application to manage student records, academic
+        details and information retrieval efficiently using MySQL concepts.
+    </p>
+
+    <h3>UI/UX Design</h3>
+    <ul>
+        <li>Designed interactive wireframes and prototypes with a
+        user-focused design approach.</li>
+        <li>Created clear navigation, balanced layouts and visually
+        consistent interfaces.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Soft Skills</h2>
+    <p>
+        Communication | Time Management | Teamwork | Critical Thinking |
+        Problem Solving | Adaptability | Quick Learning
+    </p>
+</section>
+
+<section>
+    <h2>Languages</h2>
+    <p>English, Telugu, Kannada, Tamil, Hindi</p>
+</section>
+
+</div>
+
 </body>
 </html>
